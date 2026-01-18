@@ -69,16 +69,23 @@ export function GallerySection() {
       <div className="mx-auto max-w-6xl px-4">
         
         {/* Header */}
-        <div className="mb-12 text-center">
-          <div className="flex justify-center items-center gap-2 text-emerald-600 mb-4">
+        <div className="mb-12 text-left">
+          <div className="flex items-center gap-2 text-emerald-600 mb-4">
             <Camera className="h-5 w-5" />
-            <span className="text-sm font-bold uppercase tracking-widest">Memories</span>
+            <span className="text-sm font-bold uppercase tracking-widest">
+              Memories
+            </span>
           </div>
-          <h2 className="text-4xl font-bold tracking-tight text-gray-900">Gallery</h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
+
+          <h2 className="text-4xl font-bold tracking-tight text-gray-900">
+            Gallery
+          </h2>
+
+          <p className="mt-4 max-w-2xl text-lg text-gray-600">
             A photographic journey through Madagascar's most beautiful spots.
           </p>
         </div>
+
 
         {/* Grid */}
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 md:gap-6">

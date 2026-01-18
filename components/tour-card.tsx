@@ -79,7 +79,7 @@ export function TourCard({
           >
           <DialogTrigger asChild>
             <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white transition-colors">
-              View Details & Gallery
+              View Details
             </Button>
           </DialogTrigger>
           
