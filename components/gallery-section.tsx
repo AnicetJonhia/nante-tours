@@ -76,7 +76,7 @@ export function GallerySection() {
           </div>
           <h2 className="text-4xl font-bold tracking-tight text-gray-900">Gallery</h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
-            A photographic journey through Madagascar&apos;s most beautiful spots.
+            A photographic journey through Madagascar's most beautiful spots.
           </p>
         </div>
 
