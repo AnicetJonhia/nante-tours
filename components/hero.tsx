@@ -28,7 +28,7 @@ export function Hero() {
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700">
-              <a href="#tours">Explore Tours</a>
+              <a href="#tours">Explore Destinations</a>
             </Button>
             <Button asChild size="lg" variant="secondary">
               <a href="#contact" className="flex items-center gap-2">

@@ -59,7 +59,7 @@ export function ContactSection() {
               </p>
               <p className="flex items-center gap-2 text-gray-800">
                 <Mail className="h-4 w-4 text-emerald-600" />
-                <a href="mailto:nantenaina.tours@gmail.com" className="hover:underline">nantenaina.tours@gmail.com</a>
+                <a href="mailto:nantenaina-travel@gmail.com" className="hover:underline">nantenaina.tours@gmail.com</a>
               </p>
             </div>
           </div>

@@ -4,18 +4,16 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="border-t bg-emerald-50/30 text-gray-700">
+    <footer className="border-t bg-emerald-100 text-gray-700">
       <div className="mx-auto max-w-6xl px-4 py-12">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <span className="inline-flex size-8 items-center justify-center rounded-lg bg-emerald-600 text-white shadow-sm">
-                <Leaf className="h-5 w-5" />
-              </span>
+              <span className="inline-flex size-8 items-center justify-center rounded-md bg-emerald-600 text-white">N</span>
               <span className="text-xl font-bold tracking-tight text-gray-900">
-                Nantenaina<span className="text-emerald-600"> Tours</span>
+                Nantenaina<span className="text-emerald-600"> Travel</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed text-gray-600">
@@ -68,7 +66,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Mail className="mt-0.5 h-4 w-4 text-emerald-600" />
                 <a href="mailto:nantenaina.tours@gmail.com" className="hover:underline">
-                  nantenaina.tours@gmail.com
+                  nantenaina-travel@gmail.com
                 </a>
               </li>
               <li className="text-gray-500 italic mt-2">
