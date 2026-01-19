@@ -92,7 +92,7 @@ export function ContactSection() {
                 <Textarea rows={5} value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Tell me about your trip..." required />
               </div>
               
-              <Button type="submit" disabled={status === "sending"} className="bg-emerald-600 hover:bg-emerald-700">
+              <Button type="submit" disabled={status === "sending"} className="bg-emerald-600 hover:bg-emerald-700 cursor-pointer">
                 {status === "sending" ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
